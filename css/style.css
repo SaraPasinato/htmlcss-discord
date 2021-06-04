@@ -63,8 +63,8 @@ header{
  /*jumbotron*/
   #jumbotron .container{
     position: absolute;
-    width: 800px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
@@ -76,11 +76,23 @@ header{
      background-size: cover;
      background-position: center;
      height: 500px;
-    }   
+    }  
 
+ #jumbotron .container .content{
+    margin: 40px;
+    }
+#jumbotron .container .content h1{
+    font-size: 4em;
+    font-weight: 900;
+    margin: 20px;
+    
+}
 
-
-
+#jumbotron .container .content p{
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.5em;
+}
 
 
  /* header --> btn*/
