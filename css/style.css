@@ -101,11 +101,19 @@ header{
 }
 
  /* header --> btn*/
-
+#btn-last-section{
+    background-image:url('../img/stars.svg');
+    background-position: top;
+    background-repeat: repeat ;
+    background-size: contain;
+}
 #btn-jumbo > *{
     margin:0px 20px;
 }
-
+#btn-last-section > *{
+    margin:30px 20px;
+}
+#btn-last-section .btn,
 #btn-jumbo .btn,
 #btn-nav .btn{
     border-radius: 20px;
@@ -121,10 +129,16 @@ header{
     color: #fff;
     background-color:#000;
 }
+
+.btn.btn-blue{
+    color: #fff;
+    background-color:#3161e0;
+}
 .btn.btn-white.btn-small{
     font-size:14px;
     padding:10px 20px;
 }
+.btn.btn-blue.btn-large,
 .btn.btn-black.btn-large,
 .btn.btn-white.btn-large{
     font-size:18px;
@@ -201,14 +215,16 @@ section{
     text-align: left;
 }
  /* Tech-section*/
+ #tech-section{
+     margin-bottom: 50px;
+ }
  #tech-section .container{
-    height: 750px;
+    height: 800px;
 
  }
  #tech-section .container .content{
     height: 100vh;
     position: relative;
-    background-color: yellow;
  }
 
  #tech-section .container .content .last-box{
@@ -218,7 +234,6 @@ section{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    background-color: blue;
  } 
 /* Color, Aligns & Dimensions */
 .text-center{
