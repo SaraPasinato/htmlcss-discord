@@ -57,8 +57,15 @@ header{
 .topbar .top-menu li{
     margin: 0 10px;
  }
-/* header --> btn*/
+ /*jb*/
+ #jumbotron{
+     background-image: url('../img/jumbo.png');
+     background-size: cover;
+     background-position: center;
+     height: 500px;
+    }   
 
+    /* header --> btn*/
 #btn-nav .btn{
     border-radius: 20px;
     text-decoration: none;
