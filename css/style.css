@@ -32,6 +32,7 @@ header{
     background-color: #3161e0;
     position:relative;
 }
+/* header --> logo */
 #logo{
     padding-top: 10px;
     line-height: 70px;
@@ -41,7 +42,6 @@ header{
     height: 70px;
     line-height: 70px;
 }
-/* header --> logo */
 
 /* header --> nav */
 .topbar .main-nav, .main-nav .top-menu li{
@@ -88,6 +88,7 @@ header{
     margin: 30px;
     
 }
+
 
 #jumbotron .container .content p{
     font-size: 1.3em;
@@ -136,22 +137,70 @@ section{
     color:#000;
     height: 100vh;
     width:100%;
-    position: relative;
+   
     
+}
+#server-section .top-section{
+    height: 100vh;
+    padding:50px;
+    background-color: tomato;
+    position: relative;
+}
+
+#server-section .top-section  .box-left{
+    float:left;
+    position:absolute;
+   
+    height: 90%;
+    top:50px;
+    left:5%;
+    
+    background-color:teal;
+}
+
+#server-section .top-section .box-right{
+    float: right;
+    position:absolute;
+    height: 90%;
+    top:50px;
+    right:5%;
+    
+    background-color:yellow;
+}
+
+/* box-right content */
+#server-section .top-section .container .box-right .content{
+    margin: 30px 150px;
+    padding: 0 35px;
+    }
+
+#server-section .top-section .container .box-right .content h2{
+    font-size: 2.7rem;
+    font-weight: 700;
+  
 }
 
 
-*/
+#server-section .top-section .container .box-right .content p{
+    margin: 20px 0px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
 /* Color, Aligns & Dimensions */
 .text-center{
     text-align: center;
 }
-
+.text-left{
+    text-align: left;
+}
 .text-right{
     text-align: right;
 }
-.col.w-50{
-    width:50%;
+.col.w-40{
+    width:40%;
 }
 .col.w-60{
     width: 60%;
