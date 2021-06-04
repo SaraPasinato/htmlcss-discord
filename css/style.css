@@ -64,7 +64,7 @@ header{
   #jumbotron .container{
     position: absolute;
     width: 50%;
-    height: 60%;
+    height: 50%;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
@@ -75,7 +75,7 @@ header{
      background-image: url('../img/jumbo.png');
      background-size: cover;
      background-position: center;
-     height: 500px;
+     height: 550px;
     }  
 
 /* jumbo content */
