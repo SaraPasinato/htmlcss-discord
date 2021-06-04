@@ -34,17 +34,17 @@ header .topbar{
     height: 90px;
     line-height: 90px;
 }
+/* header --> logo */
+.topbar #logo{
+    line-height: middle;
+}
 
 /* Color & Dimensions */
 .col.w-60{
     width: 60%;
-    background-color: blueviolet;
-    height: 90px;
 }
 
 .col.w-20{
     width: 20%;
-    background-color: yellow;
-    height: 90px;
 }
 
