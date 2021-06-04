@@ -64,11 +64,11 @@ header{
   #jumbotron .container{
     position: absolute;
     width: 50%;
-    height: 50%;
+    height: 60%;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    background-color: tomato;
+    background-color: transparent;
    
 }
  #jumbotron{
@@ -77,7 +77,7 @@ header{
      background-position: center;
      height: 500px;
     }  
-    
+
 /* jumbo content */
  #jumbotron .container .content{
     margin: 40px;
@@ -85,7 +85,7 @@ header{
 #jumbotron .container .content h1{
     font-size: 4em;
     font-weight: 900;
-    margin: 20px;
+    margin: 30px;
     
 }
 
@@ -94,23 +94,40 @@ header{
     font-weight: 400;
     line-height: 1.5em;
 }
-
+#btn-jumbo{
+    margin:30px;
+}
 
  /* header --> btn*/
+
+#btn-jumbo > *{
+    margin:0px 30px;
+}
+
+#btn-jumbo .btn,
 #btn-nav .btn{
     border-radius: 20px;
     text-decoration: none;
 }
 .btn.btn-white{
-    color: #3161e0;
-    background: #fff;
+    color: #000;
+    background-color:#fff;
 }
 
-.btn.btn.btn-white.btn-small{
+.btn.btn-black{
+    color: #fff;
+    background-color:#000;
+}
+.btn.btn-white.btn-small{
     font-size:12px;
     padding:5px 40px;
 }
-
+.btn.btn-black.btn-large,
+.btn.btn-white.btn-large{
+    font-size:18px;
+    padding:10px 80px;
+    
+}
 
 /* Color, Aligns & Dimensions */
 .text-center{
