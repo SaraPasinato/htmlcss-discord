@@ -17,7 +17,7 @@ body{
 /* Utils*/
 
 .container{
-    max-width:900px;
+    max-width:1000px;
     margin:0 auto;
 }
 
@@ -29,17 +29,58 @@ header{
     color:#fff;
     background-color: #3161e0;
 }
+#logo{
+    padding-top: 10px;
+    line-height: 70px;
+}
 
-header .topbar{
-    height: 90px;
-    line-height: 90px;
+.main-header .topbar{
+    height: 70px;
+    line-height: 70px;
 }
 /* header --> logo */
-.topbar #logo{
-    line-height: middle;
+
+/* header --> nav */
+.topbar .main-nav, .main-nav .top-menu li{
+    display: inline-block;
 }
 
-/* Color & Dimensions */
+.topbar .top-menu a{
+    color:white;
+    text-decoration: none;
+}
+
+.topbar .top-menu a:hover{
+    text-decoration: underline;
+}
+
+.topbar .top-menu li{
+    margin: 0 10px;
+ }
+/* header --> btn*/
+
+#btn-nav .btn{
+    border-radius: 20px;
+    text-decoration: none;
+}
+.btn.btn-white{
+    color: #3161e0;
+    background: #fff;
+}
+
+.btn.btn.btn-white.btn-small{
+    font-size:12px;
+    padding:5px 40px;
+}
+
+/* Color, Aligns & Dimensions */
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
 .col.w-60{
     width: 60%;
 }
