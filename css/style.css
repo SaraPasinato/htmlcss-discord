@@ -143,19 +143,15 @@ section{
 #server-section .top-section{
     height: 100vh;
     padding:50px;
-    background-color: tomato;
     position: relative;
 }
 
 #server-section .top-section  .box-left{
     float:left;
     position:absolute;
-   
     height: 90%;
     top:50px;
     left:5%;
-    
-    background-color:teal;
 }
 
 #server-section .top-section .box-right{
@@ -164,8 +160,6 @@ section{
     height: 90%;
     top:50px;
     right:5%;
-    
-    background-color:yellow;
 }
 
 /* box-right content */
