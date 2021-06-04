@@ -140,20 +140,22 @@ section{
    
     
 }
+
+#who-section .top-section,
 #server-section .top-section{
     height: 100vh;
     padding:50px;
     position: relative;
 }
-
-#server-section .top-section  .box-left{
+#who-section .top-section .box-left,
+#server-section .top-section .box-left{
     float:left;
     position:absolute;
     height: 90%;
     top:50px;
     left:5%;
 }
-
+#who-section .top-section .box-right,
 #server-section .top-section .box-right{
     float: right;
     position:absolute;
@@ -163,19 +165,20 @@ section{
 }
 
 /* box-right content */
-#server-section .top-section .container .box-right .content{
+#who-section .top-section .container .content,
+#server-section .top-section .container .content{
     margin: 30px 150px;
     padding: 0 35px;
     }
-
-#server-section .top-section .container .box-right .content h2{
+#who-section .top-section .container  .content h2,
+#server-section .top-section .container .content h2{
     font-size: 2.7rem;
     font-weight: 700;
   
 }
 
-
-#server-section .top-section .container .box-right .content p{
+#who-section .top-section .container  .content p,
+#server-section .top-section .container .content p{
     margin: 20px 0px;
     font-size: 1.1rem;
     font-weight: 400;
