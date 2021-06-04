@@ -166,14 +166,19 @@ section{
     right:5%;
 }
 
-/* box-right content */
+/* box content + last-box*/
+#tech-section .container .content .last-box >*{
+    margin: 0px 150px;
+    padding: 0 35px;
+    }
+
 #fandom-section .top-section .container .content,
 #who-section .top-section .container .content,
 #server-section .top-section .container .content{
     margin: 30px 150px;
     padding: 0 35px;
     }
-
+#tech-section .container .content .last-box h2,
 #fandom-section .top-section .container  .content h2,
 #who-section .top-section .container  .content h2,
 #server-section .top-section .container .content h2{
@@ -181,10 +186,15 @@ section{
     font-weight: 700;
   
 }
+#tech-section .container .content .last-box p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 0 50px;
+}
 #fandom-section .top-section .container  .content p,
 #who-section .top-section .container  .content p,
 #server-section .top-section .container .content p{
-    margin: 20px 0px;
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 1.5rem;
@@ -192,12 +202,11 @@ section{
 }
  /* Tech-section*/
  #tech-section .container{
-    height: 550px;
+    height: 750px;
 
  }
  #tech-section .container .content{
     height: 100vh;
-    padding:50px;
     position: relative;
     background-color: yellow;
  }
