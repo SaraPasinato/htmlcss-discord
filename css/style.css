@@ -17,6 +17,7 @@ body{
 /* Utils*/
 
 .container{
+    height: 100vh;
     max-width:1000px;
     margin:0 auto;
 }
@@ -26,8 +27,10 @@ body{
 }
 /* header */
 header{
+    height: 100%;
     color:#fff;
     background-color: #3161e0;
+    position:relative;
 }
 #logo{
     padding-top: 10px;
@@ -57,7 +60,17 @@ header{
 .topbar .top-menu li{
     margin: 0 10px;
  }
- /*jb*/
+ /*jumbotron*/
+  #jumbotron .container{
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: tomato;
+   
+}
  #jumbotron{
      background-image: url('../img/jumbo.png');
      background-size: cover;
@@ -65,7 +78,12 @@ header{
      height: 500px;
     }   
 
-    /* header --> btn*/
+
+
+
+
+
+ /* header --> btn*/
 #btn-nav .btn{
     border-radius: 20px;
     text-decoration: none;
@@ -79,6 +97,7 @@ header{
     font-size:12px;
     padding:5px 40px;
 }
+
 
 /* Color, Aligns & Dimensions */
 .text-center{
