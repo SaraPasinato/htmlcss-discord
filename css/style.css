@@ -247,9 +247,32 @@ section{
     margin: 20px 0px;
 }
  /* Footer*/
- 
+ footer{
+    color:#fff;
+    height: 80vh;
+    width:100%;
+   background-color: #272b2f;
+   position:relative;
+   
+ }
 
 
+footer .container hr{
+    color: #7d93de;
+}
+
+#link-footer{
+    
+    height: 40%;
+    width: 100%;
+
+    background-color: yellow;
+}
+#info-footer{
+    height: 20%;
+    width: 100%;
+    background-color: yellow;
+}
 
 /* Color, Aligns & Dimensions */
 .text-center{
