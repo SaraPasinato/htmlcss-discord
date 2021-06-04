@@ -137,7 +137,7 @@ section{
     color:#000;
     height: 100vh;
     width:100%;
-   
+   background-color: white;
     
 }
 #fandom-section .top-section,
@@ -190,7 +190,27 @@ section{
     line-height: 1.5rem;
     text-align: left;
 }
- 
+ /* Tech-section*/
+ #tech-section .container{
+    height: 550px;
+
+ }
+ #tech-section .container .content{
+    height: 100vh;
+    padding:50px;
+    position: relative;
+    background-color: yellow;
+ }
+
+ #tech-section .container .content .last-box{
+    position: absolute;
+    width:95%;
+    height:95%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: blue;
+ } 
 /* Color, Aligns & Dimensions */
 .text-center{
     text-align: center;
