@@ -164,10 +164,31 @@ header{
 
 section{
     color:#000;
-    height: 70vh;
+    height: 100vh;
     width:100%;
    background-color: white;
     
+}
+#tech-section .waves-brown,
+#who-section .waves-brown{
+    height:10%;
+    background-image: url('../img/wave.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:opacity(10%);
+}
+
+
+#who-section .waves-white{
+    height:10%;
+    background-image: url('../img/wave.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:opacity(10%);
+}
+#tech-section .bg-w,
+#who-section .bg-w{
+    background-color: #e4e4e4;
 }
 
 #fandom-section .top-section,
@@ -241,7 +262,7 @@ section{
 }
  /* Tech-section*/
  #tech-section{
-     height:150vh;
+     height:190vh;
  }
  #tech-section .container{
      position:absolute;
@@ -255,7 +276,7 @@ section{
 
  
  #tech-section .top-section{
-    height: 150vh;
+    height: 170vh;
     padding:50px;
     position: relative;
 }
