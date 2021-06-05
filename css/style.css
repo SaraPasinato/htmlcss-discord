@@ -125,7 +125,7 @@ header{
 
 .btn.btn-blue{
     color: #fff;
-    background-color:#1c4ce8f1;
+    background-color:#98aae4;
 }
 .btn.btn-white.btn-small{
     font-size:14px;
@@ -222,7 +222,7 @@ section{
 }
  /* Tech-section*/
  #tech-section{
-     height:140vh;
+     height:150vh;
  }
  #tech-section .container{
      position:absolute;
@@ -236,7 +236,7 @@ section{
 
  
  #tech-section .top-section{
-    height: 140vh;
+    height: 150vh;
     padding:50px;
     position: relative;
 }
@@ -247,16 +247,16 @@ section{
  /* Footer*/
  footer{
     color:#fff;
-    height: 90vh;
+    height: 100vh;
     width:100%;
    background-color: #272b2f;
    position:relative;
-   padding: 50px 0;
+   padding: 9vh 0;
  }
 
 
 footer .container hr{
-    color: #7d93de;
+    color: #5865f2;
 }
 
 footer hr{
@@ -264,13 +264,13 @@ footer hr{
 }
 #link-footer{
     
-    height: 60%;
+    height: 80%;
     width: 100%;
 
     background-color: yellow;
 }
 #info-footer{
-    height: 20%;
+    height: 10%;
     width: 100%;
     background-color: yellow;
 }
