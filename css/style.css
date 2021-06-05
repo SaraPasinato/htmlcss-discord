@@ -54,7 +54,7 @@ header{
     color:white;
     text-decoration: none;
 }
-
+.logo-social a:hover,
 .topbar .top-menu a:hover{
     text-decoration: underline;
 }
@@ -91,7 +91,6 @@ header{
     
 }
 
-
 #jumbotron .container .content p{
     font-size: 1.3em;
     font-weight: 400;
@@ -102,7 +101,7 @@ header{
     margin:50px 0px;
 }
 
- /* header --> btn*/
+ /* btns */
 
 #btn-jumbo > *{
     margin:0px 20px;
@@ -148,7 +147,7 @@ header{
     
 }
 
-/* server section*/
+/* section content*/
 
 section{
     color:#000;
@@ -183,8 +182,6 @@ section{
     top:50px;
     right:10px;
 }
-
-/* box content + last-box*/
 
 
 #fandom-section .top-section .container .content,
@@ -253,7 +250,8 @@ section{
 #btn-download {
     margin: 20px 0px;
 }
- /* Footer*/
+
+ /* Footer Utils */
  footer{
     color:#fff;
     height: 100vh;
@@ -266,30 +264,45 @@ section{
 
 footer .container hr{
     color: #5865f2;
+    border: thin 0.2px;
 }
 
 footer hr{
     margin-bottom:25px;
 }
 
+/* left div */
+
+#info-footer{
+    height: 10%;
+    width: 100%;
+}
+.logo-social a{
+    color: #fff;
+}
+#info-footer .f-right{
+ float:right;
+}
+
+.lang-footer img{
+    width:9%;
+}
+
+.lang-footer span{
+    line-height: bottom;
+    height: 30px;
+}
+ /* right div */
 #link-footer{
     
     height: 80%;
     width: 100%;
 
-    background-color: goldenrod;
+    background-color: trasparent;
     position :relative;
 }
-#info-footer{
-    height: 10%;
-    width: 100%;
-}
-
-#info-footer .f-right{
- float:right;
-}
 #links-page{
-    padding: 90px 0px;
+    padding: 60px 0px;
 
 }
 #social-footer{
@@ -309,18 +322,9 @@ footer hr{
 #social-footer .lang-footer{
     height: 30px;
     line-height: 30px;
-    margin:10px;
+    margin:15px;
 }
 
-.lang-footer img{
-    width:9%;
-    
-}
-
-.lang-footer span{
-    line-height: bottom;
-    height: 30px;
-}
 #link-page{
     margin: 20px 30px;
 }
@@ -345,7 +349,9 @@ footer hr{
 #links-page .link-content ul {
     list-style: none;
 }
-/* Color, Aligns & Dimensions */
+
+
+/* Aligns & Dimensions */
 .text-center{
     text-align: center;
 }
