@@ -17,7 +17,7 @@ body{
 /* Utils*/
 
 .container{
-    height: 100vh;
+    height: 90vh;
     max-width:1200px;
     margin:0 auto;
 }
@@ -29,7 +29,7 @@ body{
 header{
     height: 100%;
     color:#fff;
-    background-color: #3161e0;
+    background-color: #1c4ce8f1;
     position:relative;
 }
 /* header --> logo */
@@ -97,7 +97,7 @@ header{
     text-align: center;
 }
 #btn-jumbo{
-    margin:50px 100px;
+    margin:50px 0px;
 }
 
  /* header --> btn*/
@@ -125,17 +125,17 @@ header{
 
 .btn.btn-blue{
     color: #fff;
-    background-color:#3161e0;
+    background-color:#1c4ce8f1;
 }
 .btn.btn-white.btn-small{
     font-size:14px;
-    padding:10px 20px;
+    padding:10px 10px;
 }
 .btn.btn-blue.btn-large,
 .btn.btn-black.btn-large,
 .btn.btn-white.btn-large{
     font-size:18px;
-    padding:10px 40px;
+    padding:10px 20px;
     
 }
 
@@ -143,7 +143,7 @@ header{
 
 section{
     color:#000;
-    height: 100vh;
+    height: 70vh;
     width:100%;
    background-color: white;
     
@@ -163,7 +163,7 @@ section{
     position:absolute;
     height: 90%;
     top:50px;
-    left:5%;
+    left:10px;
 }
 #fandom-section .top-section .box-right,
 #who-section .top-section .box-right,
@@ -172,7 +172,7 @@ section{
     position:absolute;
     height: 90%;
     top:50px;
-    right:5%;
+    right:10px;
 }
 
 /* box content + last-box*/
@@ -181,7 +181,7 @@ section{
 #fandom-section .top-section .container .content,
 #who-section .top-section .container .content,
 #server-section .top-section .container .content{
-    margin: 30px 150px;
+    margin: 30px 10px;
     padding: 0 35px;
    
     }
@@ -222,23 +222,21 @@ section{
 }
  /* Tech-section*/
  #tech-section{
-     height:160vh;
+     height:140vh;
  }
  #tech-section .container{
      position:absolute;
-    height: 80%;
-     width:80%;
+    height: 60%;
+     width:60%;
      top:50%;
      left:50%;
      transform: translate(-50%,-50%);
      background-color: yellow;
  }
 
- #tech-section .container .box-last-section{
-     padding: 80px;
- }
+ 
  #tech-section .top-section{
-    height: 160vh;
+    height: 140vh;
     padding:50px;
     position: relative;
 }
@@ -249,11 +247,11 @@ section{
  /* Footer*/
  footer{
     color:#fff;
-    height: 80vh;
+    height: 90vh;
     width:100%;
    background-color: #272b2f;
    position:relative;
-   
+   padding: 50px 0;
  }
 
 
@@ -261,9 +259,12 @@ footer .container hr{
     color: #7d93de;
 }
 
+footer hr{
+    margin:10px;
+}
 #link-footer{
     
-    height: 40%;
+    height: 60%;
     width: 100%;
 
     background-color: yellow;
@@ -273,6 +274,7 @@ footer .container hr{
     width: 100%;
     background-color: yellow;
 }
+
 
 /* Color, Aligns & Dimensions */
 .text-center{
