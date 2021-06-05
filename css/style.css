@@ -179,13 +179,15 @@ section{
 }
 
 
-#who-section .waves-white{
+#fandom-section .waves-white{
     height:10%;
     background-image: url('../img/wave.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    filter:opacity(10%);
+    filter:invert(100%);
 }
+
+
 #tech-section .bg-w,
 #who-section .bg-w{
     background-color: #e4e4e4;
