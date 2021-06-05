@@ -223,7 +223,7 @@ section{
 #fandom-section .top-section .container .content,
 #who-section .top-section .container .content,
 #server-section .top-section .container .content{
-    margin: 30px 10px;
+    margin: 100px 10px;
     padding: 0 35px;
    
     }
@@ -264,7 +264,7 @@ section{
 }
  /* Tech-section*/
  #tech-section{
-     height:190vh;
+     height:189vh;
  }
  #tech-section .container{
      position:absolute;
